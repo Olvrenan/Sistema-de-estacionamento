@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Estacionamento JS</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class = "entrada">
+            <h1>SISTEMA DE ESTACIONAMENTO</h1>
+            <h2>Nome do veiculo</h2>
+            <input type="text" id="name" placeholder="Digite o nome do veiculo" autocomplete="off">
+            <h2>Placa</h2>
+            <input type="text" id="licence" placeholder="Digite a placa do veiculo" autocomplete="off">
+            <button id="send">Registrar</button>
+        </div>
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Veículo</th>
+                    <th>Placa</th>
+                    <th>Horário</th>
+                    <th class="action">Ações</th>
+                </tr>
+            </thead>
+            <tbody id="garage"></tbody>
+        </table>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
