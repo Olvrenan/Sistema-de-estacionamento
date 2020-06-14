@@ -1,6 +1,6 @@
 # Sistema-de-estacionamento
 ## Funcionalidades
-* Adiciona carros pelo nome e placa do carro*
+* Adiciona carros pelo nome e placa do carro
 * Carros adicionados são exibidos na lista
 * Excluir Carros adicionados
 * Sistema conta quanto tempo carro ficou adicionado
